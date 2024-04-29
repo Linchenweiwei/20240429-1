@@ -25,7 +25,7 @@ radioElement.style("color","#fff")
 function draw() {
   background(220);
   noStroke()
-  push
+  push()
   translate(width/2-capture_width/2,height/2-capture_height/2)
   captureGraphics.image(capture,0,0)
   for(var x = 0;x<captureGraphics.width;x=x+10){
