@@ -12,7 +12,7 @@ capture.size(capture_width,capture_height);//設定顯示畫面大小
 captureGraphics = createGraphics(capture_width,capture_height)
 captureGraphics.translate(capture_width,0)
 captureGraphics.scale(-1,1)
-
+capture.hide()
 }
 
 function draw() {
